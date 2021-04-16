@@ -1,3 +1,6 @@
+ /*
+ Code from following rust book section 5.1
+  */
 struct User {
     username: String,
     email: String,
@@ -5,7 +8,19 @@ struct User {
     active: bool
 }
 
-fn main() {
+// This struct would cause a compile error, since
+// structure fields can't be declared as reference
+// (unowned) types without lifetimes.
+/*
+struct User {
+    username: &str,
+    email: &str,
+    sign_in_count: u64,
+    active: bool,
+}
+ */
+
+fn not_main() {
     println!("Hello, world!");
 
     // Struct instances are immutable by default,
@@ -31,6 +46,12 @@ fn main() {
         username: String::from("McAnother"),
         ..user1
     };
+
+    // Struct tuples can be created by creating structures
+    // with types but no field names.
+    struct Color(i32, i32, i32);
+    let white = Color(255, 255, 255);
+    let red_val = white.0;
 }
 
 fn build_user(email: String, username: String) -> User {
@@ -45,3 +66,27 @@ fn build_user(email: String, username: String) -> User {
         sign_in_count: 10,
     }
 }
+
+ /*
+ Code from following rust book section 5.2
+  */
+ struct Rectangle {
+     width: u32,
+     height: u32,
+ }
+
+ fn main() {
+     let rect1 = Rectangle {
+         width: 35,
+         height: 50,
+     };
+
+     println!(
+        "The area of the rectangle is {} square pixels.",
+         area(&rect1)
+     );
+ }
+
+ fn area(rectangle: &Rectangle) -> u32 {
+    rectangle.width * rectangle.height
+ }
