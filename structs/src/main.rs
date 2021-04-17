@@ -76,6 +76,7 @@ fn build_user(email: String, username: String) -> User {
      height: u32,
  }
 
+ // Each method could be listed in a separate impl block
  impl Rectangle {
      // Methods on a struct like this
      // that take "self" as a parameter
@@ -136,5 +137,5 @@ fn build_user(email: String, username: String) -> User {
  }
 
  fn area(rectangle: &Rectangle) -> u32 {
-    rectangle.width * rectangle.height
+     rectangle.width * rectangle.height
  }
