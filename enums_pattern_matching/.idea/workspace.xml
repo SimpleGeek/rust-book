@@ -22,7 +22,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd8847d-acfe-4427-a395-2fa177e8baeb" name="Default Changelist" comment="" />
+    <list default="true" id="4a7f03aa-136f-4fdc-afd0-086b49200ab4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../structs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../structs/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="6qb02c71" />
+    <option name="directoryName" value="t7nz71yy" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -41,7 +43,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1nGTXptAqhxotSTwMsYOO6wHC2x" />
+  <component name="ProjectId" id="1rJTuukcehceBLOF9laSOryrp2j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,13 +51,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../enums_pattern_matching" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Run structs" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package structs --bin structs" />
+      <option name="command" value="run" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -65,24 +67,18 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cargo.Run structs" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1dd8847d-acfe-4427-a395-2fa177e8baeb" name="Default Changelist" comment="" />
-      <created>1611015470021</created>
+      <changelist id="4a7f03aa-136f-4fdc-afd0-086b49200ab4" name="Default Changelist" comment="" />
+      <created>1618693418827</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611015470021</updated>
+      <updated>1618693418827</updated>
     </task>
     <servers />
   </component>
@@ -96,28 +92,27 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1520" y="592" width="424" height="481" key="FileChooserDialogImpl" timestamp="1618693415982">
+    <state x="1195" y="492" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618693447614">
       <screen x="0" y="0" width="3440" height="1414" />
     </state>
-    <state x="1520" y="592" width="424" height="481" key="FileChooserDialogImpl/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1618693415982" />
-    <state width="1630" height="277" key="GridCell.Tab.0.bottom" timestamp="1611016620730">
+    <state x="1195" y="492" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1618693447614" />
+    <state width="1630" height="277" key="GridCell.Tab.0.bottom" timestamp="1618697837077">
       <screen x="0" y="0" width="3440" height="1414" />
     </state>
-    <state width="1630" height="277" key="GridCell.Tab.0.bottom/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1611016620730" />
-    <state width="1630" height="277" key="GridCell.Tab.0.center" timestamp="1611016620730">
+    <state width="1630" height="277" key="GridCell.Tab.0.bottom/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1618697837077" />
+    <state width="1630" height="277" key="GridCell.Tab.0.center" timestamp="1618697837076">
       <screen x="0" y="0" width="3440" height="1414" />
     </state>
-    <state width="1630" height="277" key="GridCell.Tab.0.center/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1611016620730" />
-    <state width="1630" height="277" key="GridCell.Tab.0.left" timestamp="1611016620729">
+    <state width="1630" height="277" key="GridCell.Tab.0.center/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1618697837076" />
+    <state width="1630" height="277" key="GridCell.Tab.0.left" timestamp="1618697837076">
       <screen x="0" y="0" width="3440" height="1414" />
     </state>
-    <state width="1630" height="277" key="GridCell.Tab.0.left/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1611016620729" />
-    <state width="1630" height="277" key="GridCell.Tab.0.right" timestamp="1611016620730">
+    <state width="1630" height="277" key="GridCell.Tab.0.left/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1618697837076" />
+    <state width="1630" height="277" key="GridCell.Tab.0.right" timestamp="1618697837077">
       <screen x="0" y="0" width="3440" height="1414" />
     </state>
-    <state width="1630" height="277" key="GridCell.Tab.0.right/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1611016620730" />
+    <state width="1630" height="277" key="GridCell.Tab.0.right/0.0.3440.1414/3440.0.1920.1080@0.0.3440.1414" timestamp="1618697837077" />
   </component>
 </project>
